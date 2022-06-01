@@ -1,16 +1,10 @@
-export const App = () => {
-  return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
-  );
-};
+import { Route, Switch, Link } from 'react-router-dom';
+// import Header from './Header';
+// import Books from './Books';
+// import About from './About';
+// import Authors from './Authors';
+import Navigation from './Navigation/Navigation';
+
+export default function App() {
+  return <Navigation />;
+}
