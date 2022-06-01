@@ -1,4 +1,5 @@
-import { Route, Switch, Link } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
+
 import Navigation from './Navigation/Navigation';
 import HomeView from '../views/HomeView';
 import BooksView from '../views/BooksView';
